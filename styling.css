@@ -1,0 +1,30 @@
+.root{
+-fx-background-image: url("blacktheme.jpg");
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-family: "Monotype Corsiva";
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.button{
+-fx-background-color: #ab4642;
+-fx-text-fill:#FFFFFF;
+-fx-background-radius: 6;
+}
+
+
+#fancytext{
+-fx-font: bold 18px "Monotype Corsiva";
+}
+
+#fancytext1{
+	-fx-font-size: 14px;
+    -fx-font-family: "Monotype Corsiva";
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
